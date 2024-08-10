@@ -81,7 +81,7 @@ def set_desktop_background_image(image_path):
         print("failure")
     return False
 
-def scale_image(image_size, max_size=(800, 600)):
+def scale_image(image_size, max_size=(400, 300)):
     """Calculates the dimensions of an image scaled to a maximum width
     and/or height while maintaining the aspect ratio  
 
